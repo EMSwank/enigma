@@ -43,7 +43,7 @@ class Enigma
       key_offset = @keygen.key_normalizer(number.to_s)
       decrypted_text = decrypt(message, key_offset, date)
       if decrypted_text[-7..-1] == "..end.."
-        @cracked_key = number.to_s.rjust(5,"0")
+        @cracked_key = number.to_s.rjust(5, "0")
         return decrypted_text
       end
     end
