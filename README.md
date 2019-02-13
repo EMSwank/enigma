@@ -1,0 +1,1 @@
+Enigma is a project from Turing School of Software and Design's Backend Engineering Module 1. The intent was to create a software version of Germany's WWII Enigma machine with a CLI. Enigma can encrypt and decrypt from a txt file.
